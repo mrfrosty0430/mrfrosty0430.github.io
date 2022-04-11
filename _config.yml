@@ -30,10 +30,30 @@ twitter_username: jekyllrb
 github_username:  mrfrosty0430
 
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
-  - jekyll-feed
+  - jekyll-include-cache
 
+
+author:
+  name: "Sung Jun Hong"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Software Engineer & Soccer **Enthusiast**" # Note: Markdown is allowed
+  location: "Seoul, Korea"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mrfrosty0430"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/sjtheorange"
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
