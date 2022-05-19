@@ -9,6 +9,9 @@ author_profile: true
   function loginWithKakao() {
     Kakao.init("f64585f1fa831d622cdc03a67b36193c")
     Kakao.Auth.authorize()
+    
+    // SDK 초기화 여부를 판단합니다.
+    console.log(Kakao.isInitialized());
   }
 </script>
 
