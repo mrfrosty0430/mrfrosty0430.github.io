@@ -4,8 +4,8 @@ author_profile: true
 ---
 
 <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
-
 <script>
+	console.log(window.location);
   function loginWithKakao() {
   	var getUrl = window.location;
   	console.log(getUrl);
