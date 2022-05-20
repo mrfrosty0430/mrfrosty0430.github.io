@@ -3,6 +3,15 @@ layout: home
 author_profile: true
 ---
 <!-- Channel Plugin Scripts -->
+    <script id="happytalkSDK" src="https://design.happytalkio.com/sdk/happytalk.chat.v2.min.js"></script>
+    <script>
+        var ht = new Happytalk({
+        siteId: '3000000527',
+        siteName: 'Open Format',
+        categoryId: '145721',
+        divisionId: '145722',
+        });
+    </script>
 <script>
   (function() {
     var w = window;
