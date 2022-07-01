@@ -5,48 +5,25 @@
                   <title>{{ page.title }}</title>
                     </head>
                       <body>
-                        <!-- Channel Plugin Scripts -->
-<script>
-  (function() {
-    var w = window;
-    if (w.ChannelIO) {
-      return (window.console.error || window.console.log || function(){})('ChannelIO script included twice.');
-    }
-    var ch = function() {
-      ch.c(arguments);
-    };
-    ch.q = [];
-    ch.c = function(args) {
-      ch.q.push(args);
-    };
-    w.ChannelIO = ch;
-    function l() {
-      if (w.ChannelIOInitialized) {
-        return;
-      }
-      w.ChannelIOInitialized = true;
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
-      s.charset = 'UTF-8';
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s, x);
-    }
-    if (document.readyState === 'complete') {
-      l();
-    } else if (window.attachEvent) {
-      window.attachEvent('onload', l);
-    } else {
-      window.addEventListener('DOMContentLoaded', l, false);
-      window.addEventListener('load', l, false);
-    }
-  })();
-  ChannelIO('boot', {
-    "pluginKey": "1deda9c2-8943-4d35-9924-a29a68b0cfcf"
-  });
-</script>
-<!-- End Channel Plugin -->
+                        <a id="create-kakaotalk-sharing-btn" href="javascript:;">
+                          <img
+                            src="https://developers.kakao.com/assets/img/about/logos/kakaotalksharing/kakaotalk_sharing_btn_medium.png"
+                            alt="카카오톡 공유 보내기 버튼"
+                          />
+                        </a>
+                        <script type="text/javascript">
+                          Kakao.Share.createCustomButton({
+                            container: '#create-kakaotalk-sharing-btn',
+                            templateId: 79025,
+                            templateArgs: {
+                              title:
+                                '판교 맛집에 들르다. 다양하고 풍부한 퓨전 한정식. 깔끔한 내부 인테리어 라이언',
+                              description:
+                                '부담없는 가격에 푸짐하게 즐기는 점심메뉴 런치한정식, 불고기정식, 돼지 김치찌개 등',
+                            },
+                          })
+                        </script>
+
                               {{ content }}
                                 </body>
 </html>
