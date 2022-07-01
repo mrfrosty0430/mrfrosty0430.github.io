@@ -43,6 +43,8 @@ author_profile: true
         '판교 맛집에 들르다. 다양하고 풍부한 퓨전 한정식. 깔끔한 내부 인테리어 라이언',
       description:
         '부담없는 가격에 푸짐하게 즐기는 점심메뉴 런치한정식, 불고기정식, 돼지 김치찌개 등',
+      image:
+        'https://firebasestorage.googleapis.com/v0/b/tastemate-3457b.appspot.com/o/userimages%2F18B73E04-95F0-43BC-B7C5-53DA190F359B.jpg?alt=media&token=d4286852-6079-4731-ab69-bf0184e55a63'
     },
   })
 </script>
