@@ -44,7 +44,7 @@ author_profile: true
       description:
         '부담없는 가격에 푸짐하게 즐기는 점심메뉴 런치한정식, 불고기정식, 돼지 김치찌개 등',
       image:
-        'https://firebasestorage.googleapis.com/v0/b/tastemate-3457b.appspot.com/o/userimages%2F18B73E04-95F0-43BC-B7C5-53DA190F359B.jpg?alt=media&token=d4286852-6079-4731-ab69-bf0184e55a63'
+        'https://www.rd.com/wp-content/uploads/2019/07/Screen-Shot-2020-07-17-at-1.01.13-PM-copy.jpg?resize=1536,1025'
     },
   })
 </script>
