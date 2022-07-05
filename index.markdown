@@ -21,7 +21,7 @@ author_profile: true
   />
 </a>
 <script type="text/javascript">
-  Kakao.init("f64585f1fa831d622cdc03a67b36193c")
+  Kakao.init("609482b2d4bee4f9de3a4fd7d534a526")
   Kakao.Share.createCustomButton({
     container: '#create-kakaotalk-sharing-btn',
     templateId: 79132,
