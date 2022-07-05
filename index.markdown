@@ -3,20 +3,7 @@ layout: home
 author_profile: true
 ---
 <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
-<script>
-	console.log(window.location);
-  function loginWithKakao() {
-  	var getUrl = window.location;
-  	console.log(getUrl);
-    Kakao.init("609482b2d4bee4f9de3a4fd7d534a526")
-    Kakao.Auth.authorize({
-      redirectUri: 'https://sungjunh.me'
-    })
 
-    // SDK 초기화 여부를 판단합니다.
-    console.log(Kakao.isInitialized());
-  }
-</script>
 
 
 <a id="custom-login-btn" href="javascript:loginWithKakao()">
