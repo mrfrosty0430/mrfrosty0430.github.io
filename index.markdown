@@ -37,7 +37,7 @@ author_profile: true
   Kakao.init("f64585f1fa831d622cdc03a67b36193c")
   Kakao.Share.createCustomButton({
     container: '#create-kakaotalk-sharing-btn',
-    templateId: 79025,
+    templateId: 79132,
     templateArgs: {
       title:
         '판교 맛집에 들르다. 다양하고 풍부한 퓨전 한정식. 깔끔한 내부 인테리어 라이언',
