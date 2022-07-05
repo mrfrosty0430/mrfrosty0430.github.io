@@ -36,3 +36,26 @@ author_profile: true
     },
   })
 </script>
+
+<a id="create-kakaotalk-sharing-btn1" href="javascript:;">
+  <img
+    src="https://developers.kakao.com/assets/img/about/logos/kakaotalksharing/kakaotalk_sharing_btn_medium.png"
+    alt="카카오톡 공유 보내기 버튼"
+  />
+</a>
+<script type="text/javascript">
+  Kakao.init("609482b2d4bee4f9de3a4fd7d534a526")
+  Kakao.Share.createCustomButton({
+    container: '#create-kakaotalk-sharing-btn1',
+    templateId: 79108,
+    templateArgs: {
+      title:
+        '판교 맛집에 들르다. 다양하고 풍부한 퓨전 한정식. 깔끔한 내부 인테리어 라이언',
+      description:
+        '부담없는 가격에 푸짐하게 즐기는 점심메뉴 런치한정식, 불고기정식, 돼지 김치찌개 등',
+      redirectTag: 'abcdefg',
+      image:
+        'https://www.rd.com/wp-content/uploads/2019/07/Screen-Shot-2020-07-17-at-1.01.13-PM-copy.jpg?resize=1536,1025'
+    },
+  })
+</script>
