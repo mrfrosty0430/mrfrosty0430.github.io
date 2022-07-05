@@ -8,7 +8,7 @@ author_profile: true
   function loginWithKakao() {
   	var getUrl = window.location;
   	console.log(getUrl);
-    Kakao.init("f64585f1fa831d622cdc03a67b36193c")
+    Kakao.init("609482b2d4bee4f9de3a4fd7d534a526")
     Kakao.Auth.authorize({
       redirectUri: 'https://sungjunh.me'
     })
