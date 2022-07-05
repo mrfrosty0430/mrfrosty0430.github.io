@@ -44,7 +44,6 @@ author_profile: true
   />
 </a>
 <script type="text/javascript">
-  Kakao.init("609482b2d4bee4f9de3a4fd7d534a526")
   Kakao.Share.createCustomButton({
     container: '#create-kakaotalk-sharing-btn1',
     templateId: 79108,
