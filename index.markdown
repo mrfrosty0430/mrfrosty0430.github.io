@@ -32,7 +32,7 @@ author_profile: true
         '부담없는 가격에 푸짐하게 즐기는 점심메뉴 런치한정식, 불고기정식, 돼지 김치찌개 등',
       redirectTag: 'abcdefg',
       image:
-        'https://www.rd.com/wp-content/uploads/2019/07/Screen-Shot-2020-07-17-at-1.01.13-PM-copy.jpg?resize=1536,1025'
+        'https://referral-bucket-test.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A1%E1%84%89%E1%85%A1%E1%86%AB+2%404x.png'
     },
   })
 </script>
@@ -54,7 +54,7 @@ author_profile: true
         '부담없는 가격에 푸짐하게 즐기는 점심메뉴 런치한정식, 불고기정식, 돼지 김치찌개 등',
       redirectTag: 'abcdefg',
       image:
-        'https://www.rd.com/wp-content/uploads/2019/07/Screen-Shot-2020-07-17-at-1.01.13-PM-copy.jpg?resize=1536,1025'
+        'https://referral-bucket-test.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A1%E1%84%89%E1%85%A1%E1%86%AB+2%404x.png'
     },
   })
 </script>
